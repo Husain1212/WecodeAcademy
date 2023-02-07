@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <p>Information</p>
+  <script>
+    class Account {
+    constructor(accountNo, name, balance, password) {
+      this._balance = balance;
+      this.accountNo = accountNo;
+      this.name = name;
+      this.password = password;
+    }
+    get balance() {
+      let password = prompt("What is your password?");
+      if (password === this.password) {
+        return this._balance;
+      } else {
+        alert("Sorry, you have entered wrong password");
+      }
+    }
+    set balance(amount) {
+      this._balance = this._balance + amount;
+    }
+  }
+  const taiyab = new Account(611655656, "taiyab", 1000, "123@abc");
+  taiyab.balance = 10000;
+  document.write(taiyab.balance);
+  </script>  
+</body>
+</html>

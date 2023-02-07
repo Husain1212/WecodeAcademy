@@ -6,11 +6,11 @@ body {
 
 
 .box {
-    width: 800px;
+    width: 900px;
     height: 200px;
     margin: 500px ;
     color: white;
-    border: 10px solid;
+    border: 20px solid;
     border-bottom-color: rgb(246, 255, 0);
     padding: 10px;
 

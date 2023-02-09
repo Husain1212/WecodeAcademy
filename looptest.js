@@ -57,21 +57,23 @@ for(i =1; i<=user; i++){
 
 
 Ans--8--------------------add sum number
+
 let sum= 1;
 for(i =1; i<=100; i++){
-    sum = sum + i;
-        console.log(sum);
+    sum = sum + i;}
+        console.log("The sum of all numbers:", sum);
     
-}
+
 
 
 Ans--9--------------------add sum number odd
 let sum= 0;
 for(i =1; i<=100; i++){
     if(i % 2===1){
-        sum = sum + i;
-        console.log(sum);
-    }
+        sum = sum + i;}}
+
+        console.log("The sum of all odd numbers:", sum);
+    
     
     
 }
@@ -80,15 +82,11 @@ Ans--10--------------------add sum number even
 let sum= 0;
 for(i =1; i<=100; i++){
     if(i % 2===0){
-        sum = sum + i;
-        console.log(sum);
-    }
-    
-    
-}
+        sum = sum + i;}}
+        console.log("The sum of all even numbers:", sum);
 
 
-Ans--11--------- print 1,2,4,8,16,32,64.......upto 2048
+Ans--11---------------- print 1,2,4,8,16,32,64.......upto 2048
 
 
 for(i =1; i<=2048; i=i*2){
@@ -122,6 +120,14 @@ for (let f = 1; f <= 100; f++) {
   document.write(f, ",");
 }
 
+logic  ===============================
+
+for(let f = 1; f <= 100; f++){
+    document.write(f,",") ;
+    if(f % 10 === 0){
+        document.write("<br>")
+    }
+}
 
 Ans-13----------------------------------------
 
@@ -182,8 +188,9 @@ for(i =5; i<=10000; i=i*5){
         console.log(i);
     }
 
+
 Ans 18--------------------------
-for(i =3; i<=500; i=i*3){
+for(i =3; i<=500; i=i+3){
         console.log(i);
     }
 
@@ -198,6 +205,11 @@ for(i = 1; i<=10; j <=29 , j++ ,i++){
 }
 
 
+19 logic=================================
+
+for (let i = 1, j = 20; i <= 10; i++, j++) {
+  console.log(i + "" + j);
+}
 
 
 Ans 20-------------------------------
@@ -214,3 +226,113 @@ for(i=1; i<=70; i++){
         console.log(i)
     }
 }
+
+
+Ans 01===========while loop====================
+
+let i = 1;
+while(i<=10){
+    console.log(i)
+    i++;
+}
+
+Ans 02-----------------------
+
+let sum = 0;
+let i = 1;
+while(i<=10){
+    sum +=i;
+    i++;
+} console.log("The sum of all numbers:" , sum);
+
+Ans 03-----------------------------
+
+let i = 10;
+while(i>=1){
+    console.log(i)
+    i--;
+}
+
+Ans 04-----------------------------
+
+let j = 2;
+let i = 1;
+while(i<=10){
+    mult = i * j ;
+    console.log(mult)
+    i++;
+}
+
+
+Ans 05--------------------------
+
+let sum = 0;
+let i = 1;
+while(i<=100){
+    if(i % 2 === 1){
+       sum += i;
+    }
+  i++;
+}
+  console.log("The sum of all odd numbers:" , sum);
+
+Ans01==============Do While loop================
+
+let i = 1;
+do{
+    console.log(i);
+    i++;
+}while(i<=5);
+
+Ans 02------------------------------------------
+
+let i =10;
+do{
+    console.log(i);
+    i--;
+}while(i>=1);
+
+Ans 03------------------------------------------
+
+let i = 1;
+let sum = 0;
+do{
+    sum += i;
+    
+    i++;
+}while(i<=10);
+console.log("The sum of all numbers:", sum);
+
+Ans 04-------------------------------------------
+
+let i = 1;
+do{
+    if(i % 2===0){
+        console.log(i);
+    } 
+    i++;
+}while(i<=20);
+
+Ans 05 -------------------------------------------
+
+let user = Number(prompt("please enter a number?"));
+let i = 1;
+do{
+    console.log("Hello world");
+   
+    i++;
+}while(i<=user);
+
+Ans 06--------------------------------------------
+
+let i = 1;
+let sum = 0;
+do{
+    if(i % 2=== 0){
+        sum +=i;
+        
+    }
+    i++;
+}while(i<=100);
+console.log("The sum of all even numbers:",sum);
+

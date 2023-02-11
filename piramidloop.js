@@ -4,7 +4,9 @@
 for (let i = 5; i>=1; i--){
     let ans = "";
     for (let j =1; j<= i; j++){ 
-        /* i=5(j<=5) h to isme loop 5 bar chlega to 5 bar star print karega. or jab j ki value(6<=5) hogi to false hogi or loop se bahar se nikal jayega or bad m fhir se pehle wale loop m jayega. isme i-- h to 5 ki jagh 4 ho jayegi value or isi trh fhir se loop chlega or i = 4 hogi to loop 4 bar chlega. 
+        /* i=5(j<=5) h to isme loop 5 bar chlega to 5 bar star print karega. or jab j ki value(6<=5) hogi to false hogi or 
+        loop se bahar se nikal jayega or bad m fhir se pehle wale loop m jayega. 
+        isme i-- h to 5 ki jagh 4 ho jayegi value or isi trh fhir se loop chlega or i = 4 hogi to loop 4 bar chlega. 
 
     */
         ans = ans + "*";// isme ans ek string h jo value ko chipka dega. to jese jese value aayegi wese wese value ko chipkata huwa chlega.

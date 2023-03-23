@@ -1,4 +1,10 @@
-## *****dicrement
+## question dicrement star
+ *****
+ ****
+ ***
+ **
+ *
+
 ```
 for (let i = 5; i>=1; i--){
     let ans = "";
@@ -13,14 +19,13 @@ for (let i = 5; i>=1; i--){
     console.log(ans);
 }
 ```
-```
- //*****
- //****
- //***
- //**
- //*
-```
-## incriment
+
+## question incriment
+*
+**
+***
+****
+*****
 ```
 for(let i1 = 1; i1 <= 5; i1++){
     let ans = "";
@@ -30,15 +35,12 @@ for(let i1 = 1; i1 <= 5; i1++){
     console.log(ans);
 }
 ```
-```
- //*
- //**
- //***
- //****
- //*****
-```
-
-## 12345----incriment========
+## question 12345----incriment========
+1
+12
+123
+1234
+12345
 ```
 for(a=1; a<=5; a++){
     let ans1 = "";
@@ -49,13 +51,6 @@ for(a=1; a<=5; a++){
     
 }
 ```
-1
-12
-123
-1234
-12345
-```
-
 ## question
 12345
 1234
@@ -154,7 +149,3 @@ for(x=10; x>=1; x--){
     console.log(ans2)
 }
 ```
-
-
-
-

@@ -1,0 +1,18 @@
+body {
+    background-color:#c2b9a4;
+    background-size: cover;
+
+}
+
+
+.box {
+    width: 800px;
+    height: 200px;
+    margin: 500px ;
+    color: white;
+    border: 10px solid;
+    border-bottom-color: rgb(246, 255, 0);
+    padding: 10px;
+
+
+}

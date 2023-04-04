@@ -1,10 +1,8 @@
-//1. Function ko 1 number pass krna hai. jo number pass kia hai us number ki table print krni hai. for example 5 
-//5*1=5
-//5*2=10
-
-// ans 1
-
-
+### Question  1. Function ko 1 number pass krna hai. jo number pass kia hai us number ki table print krni hai. for example 5 
+```
+5*1=5
+5*2=10
+```
 ```
 function table(a){
     for(i = 1 ; i<= 10; i++){
@@ -16,12 +14,9 @@ function table(a){
 } table(5)
 
 ```
-
-
-//2. Function ko 2 numbers pass krne hai. Numbers ko multiply krna hai 
+### Question 2. Function ko 2 numbers pass krne hai. Numbers ko multiply krna hai 
 
 ```
-//ans 2
 function multiply(a,b){
  console.log(a*b)
 } multiply(5,2)
@@ -29,7 +24,7 @@ function multiply(a,b){
 ```
 
 
-//3. Function ko array bnana hai and array ke sare numbers ko print krna hai 
+### Question 3. Function ko array bnana hai and array ke sare numbers ko print krna hai 
 
 ```
 
@@ -39,7 +34,7 @@ for(i = 1; i< array_new.length; i++){
 }
 ```
 
-// 4. Function bnana hai. Function me ek value leni hai. agar value true hai to Yes print kro otherwise No print kro
+### Question 4. Function bnana hai. Function me ek value leni hai. agar value true hai to Yes print kro otherwise No print kro
 
 ```
 function trueFalse (a){
@@ -53,7 +48,7 @@ function trueFalse (a){
 trueFalse(-7)
 
 ```
-// 5. Function bnana hai. Function ko 2 numbers pass krne hai min and max. for example 10 and 20 to tume 10 se leke 20 tak print krvana hai 
+### Question 5. Function bnana hai. Function ko 2 numbers pass krne hai min and max. for example 10 and 20 to tume 10 se leke 20 tak print krvana hai 
 
 
 ```
@@ -67,7 +62,7 @@ for(i = a; i<= b; i++){
 
 ```
 
-//6. function bnana hai. Function ko 1 number pass krna hai. 0 se leke us number tak jitne b Odd numbers hai vo print krne hai.
+### Question 6. function bnana hai. Function ko 1 number pass krna hai. 0 se leke us number tak jitne b Odd numbers hai vo print krne hai.
 
 
 ```
@@ -81,7 +76,7 @@ function oddNum(a){
 
 ```
 
-//7. function bnana hai. Function ko 1 number pass krna hai. 0 se leke us number tak jitne b Even numbers hai vo print krne hai.
+### Question 7. function bnana hai. Function ko 1 number pass krna hai. 0 se leke us number tak jitne b Even numbers hai vo print krne hai.
 
 
 ```
@@ -95,7 +90,7 @@ function oddNum(a){
 
 ```
 
-//8. Ek function bnana hai. Is function ko 2 number pas krne hai. phla number ek number hoga aur dusra number maximum number hoga. fir hume phle number ke multiples max number tak print krne hai.for example: 5, 100 5 10 15 20 25...... 100
+### Question 8. Ek function bnana hai. Is function ko 2 number pas krne hai. phla number ek number hoga aur dusra number maximum number hoga. fir hume phle number ke multiples max number tak print krne hai.for example: 5, 100 5 10 15 20 25...... 100
 
  
  

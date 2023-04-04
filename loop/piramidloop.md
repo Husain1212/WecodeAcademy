@@ -160,3 +160,26 @@ for(x=10; x>=1; x--){
     console.log(ans2)
 }
 ```
+
+## print triangle
+```
+    *********
+     *******
+      *****
+       ***
+        *
+
+```
+```
+let n = 5;
+for(let i = n ; i>=1 ; i--){
+    for (let j = 1 ; j <=n-i; j++){
+        document.write("&nbsp&nbsp");
+    }
+    for(let k = 1 ; k <= 2*i - 1 ; k++){
+        document.write("*");
+    }
+    document.write("<br/>")
+}
+
+```

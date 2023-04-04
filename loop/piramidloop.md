@@ -138,6 +138,24 @@ for(k = 4 ; k>=1; k--){```
     console.log(str1);
 }
 ```
+
+```
+let b = 5
+for(let a = 1; a<= 10; a++){
+      document.write("<br>")
+    if(a<=5){
+    for(let b = 1; b<= a;b++){
+     document.write("*");
+    } 
+    continue
+     }
+      b-- 
+     for(let c = b ;c>=1;c--){
+        document.write("*")
+     
+    }
+}
+```
 ## question
 ```
 10987654321

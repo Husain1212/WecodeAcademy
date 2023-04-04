@@ -1,11 +1,10 @@
-##Ans-1 print 1 to 100 number
+## Ans-1 print 1 to 100 number
 ```
 for(i = 1; i<=100; i++){
     console.log(i);
 }
 ```
-
-##Ans--2 print odd number
+## Ans--2 print odd number
 ```
 for(i = 1; i<=100; i++){
     if(i % 2===1){
@@ -13,8 +12,7 @@ for(i = 1; i<=100; i++){
     } 
 }
 ```
-
-##Ans--3 print  even number
+## Ans--3 print  even number
 ```
 for(i = 1; i<=100; i++){
     if(i % 2===0){
@@ -146,7 +144,7 @@ for(i=1;  i<=10; i++){
     }
 ```
 
-## Ans 15 print A B C D E in 10 series
+## Ans 15 print A B C D E in 10 series 1 T0 50
 ```
 for(i = 1; i<=50; i++){
     if(i<=10){
@@ -164,8 +162,8 @@ for(i = 1; i<=50; i++){
     
 }
 ```
-Ans 16-------------------------------
-
+## Ans 16 print A B C D E in 10 series 50 TO 1 REVERSE
+```
 for(i = 50; i>=1; i--){
     if(i<=50 && i >40){
         console.log("A");
@@ -180,158 +178,45 @@ for(i = 50; i>=1; i--){
         console.log("E")
     }
 }
-
-Ans 17---------------------------
-
-for(i =5; i<=10000; i=i*5){
+```
+## Ans 17- Print 5 multiple number between 1 to 1000 ?
+```
+for(i =5; i<=1000; i=i*5){
         console.log(i);
     }
-
-
-Ans 18--------------------------
+```
+## Ans 18- Print 3 multiple number between 1 to 500 ?
+```
 for(i =3; i<=500; i=i+3){
         console.log(i);
     }
-
-Ans 19---------------------------
-
+```
+## Ans 19- Print two series 1 to 10 and 20 to 29 ?
+```
 let j = 20;
 for(i = 1; i<=10; j <=29 , j++ ,i++){
-    
     document.write(i,j);
     document.write("</br>");
-
 }
-
-
-19 logic=================================
-
+```
+```
 for (let i = 1, j = 20; i <= 10; i++, j++) {
   console.log(i + "" + j);
 }
-
-
-Ans 20-------------------------------
-
+```
+## Ans 20 print reverse 5 multiple number 100 t0 1 ? 
+```
 for(i=100; i>=0; i--){
     if(i % 5 === 0){
         console.log(i);
     }
 }
-
-Ans 21-------------------------
+```
+## Ans 21 find numbers if 70 divisble   between 1 to 70 number ?
+```
 for(i=1; i<=70; i++){
     if(70 % i === 0){
         console.log(i)
     }
 }
-
-
-Ans 01===========while loop====================
-
-let i = 1;
-while(i<=10){
-    console.log(i)
-    i++;
-}
-
-Ans 02-----------------------
-
-let sum = 0;
-let i = 1;
-while(i<=10){
-    sum +=i;
-    i++;
-} console.log("The sum of all numbers:" , sum);
-
-Ans 03-----------------------------
-
-let i = 10;
-while(i>=1){
-    console.log(i)
-    i--;
-}
-
-Ans 04-----------------------------
-
-let j = 2;
-let i = 1;
-while(i<=10){
-    mult = i * j ;
-    console.log(mult)
-    i++;
-}
-
-
-Ans 05--------------------------
-
-let sum = 0;
-let i = 1;
-while(i<=100){
-    if(i % 2 === 1){
-       sum += i;
-    }
-  i++;
-}
-  console.log("The sum of all odd numbers:" , sum);
-
-Ans01==============Do While loop================
-
-let i = 1;
-do{
-    console.log(i);
-    i++;
-}while(i<=5);
-
-Ans 02------------------------------------------
-
-let i =10;
-do{
-    console.log(i);
-    i--;
-}while(i>=1);
-
-Ans 03------------------------------------------
-
-let i = 1;
-let sum = 0;
-do{
-    sum += i;
-    
-    i++;
-}while(i<=10);
-console.log("The sum of all numbers:", sum);
-
-Ans 04-------------------------------------------
-
-let i = 1;
-do{
-    if(i % 2===0){
-        console.log(i);
-    } 
-    i++;
-}while(i<=20);
-
-Ans 05 -------------------------------------------
-
-let user = Number(prompt("please enter a number?"));
-let i = 1;
-do{
-    console.log("Hello world");
-   
-    i++;
-}while(i<=user);
-
-Ans 06--------------------------------------------
-
-let i = 1;
-let sum = 0;
-do{
-    if(i % 2=== 0){
-        sum +=i;
-        
-    }
-    i++;
-}while(i<=100);
-console.log("The sum of all even numbers:",sum);
-
+```

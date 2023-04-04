@@ -1,6 +1,38 @@
+## For loop
+### print 1 to 100 number?
+```
+for(i = 1; i<=100; i++){
+    console.log(i);
+}
+```
+### print odd number?
+```
+for(i = 1; i<=100; i++){
+    if(i % 2===1){
+        console.log(i);
+    } 
+}
+```
+### print numbers 5 multiple
+```
+for(i =1; i<=100; i++){
+    if(i % 5 === 0){
+        console.log(i);
+    }
+}
+```
+### print 2 table ?
+```
+for(i =1; i<=20; i++){
+    if(i % 2 === 0){
+        console.log(i);
+    }
+}
+```
 
-### While loop
-## print 1 to 10 numbers?
+
+## While loop
+### print 1 to 10 numbers?
 ```
 let i = 1;
 while(i<=10){
@@ -8,7 +40,7 @@ while(i<=10){
     i++;
 }
 ```
-## print sum numbers
+### print sum numbers
 ```
 let sum = 0;
 let i = 1;
@@ -17,7 +49,7 @@ while(i<=10){
     i++;
 } console.log("The sum of all numbers:" , sum);
 ```
-## print reverse number ? 
+### print reverse number ? 
 ```
 let i = 10;
 while(i>=1){
@@ -25,7 +57,7 @@ while(i>=1){
     i--;
 }
 ```
-## print 2 numbers multiply upto 10 ?
+### print 2 numbers multiply upto 10 ?
 ```
 let j = 2;
 let i = 1;
@@ -35,7 +67,7 @@ while(i<=10){
     i++;
 }
 ```
-## print all even number sum ?
+### print all even number sum ?
 ```
 let sum = 0;
 let i = 1;
@@ -49,9 +81,9 @@ while(i<=100){
 ```
 
 
-### Do While loop
+## Do While loop
 
-## print 1 to 5 numbers?
+### print 1 to 5 numbers?
 ```
 let i = 1;
 do{
@@ -59,7 +91,7 @@ do{
     i++;
 }while(i<=5);
 ```
-## printreverse 1 to 10 numbers?
+### printreverse 1 to 10 numbers?
 ```
 let i =10;
 do{
@@ -67,7 +99,7 @@ do{
     i--;
 }while(i>=1);
 ```
-## print all even number of sum ?
+### print all even number of sum ?
 ```
 let i = 1;
 let sum = 0;
@@ -78,7 +110,7 @@ do{
 }while(i<=10);
 console.log("The sum of all numbers:", sum);
 ```
-## print 2 table  ?
+### print 2 table  ?
 ```
 let i = 1;
 do{
@@ -88,7 +120,7 @@ do{
     i++;
 }while(i<=20);
 ```
-## print a "Hello world" by prompt ?
+### print a "Hello world" by prompt ?
 ```
 let user = Number(prompt("please enter a number?"));
 let i = 1;
@@ -98,7 +130,7 @@ do{
     i++;
 }while(i<=user);
 ```
-## print all even number of sum ?
+### print all even number of sum ?
 ```
 let i = 1;
 let sum = 0;

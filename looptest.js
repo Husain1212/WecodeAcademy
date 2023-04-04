@@ -1,11 +1,11 @@
-## Ans-1 print 1 to 100 number
+##Ans-1 print 1 to 100 number
 ```
 for(i = 1; i<=100; i++){
     console.log(i);
 }
 ```
 
-## Ans--2 print odd number
+##Ans--2 print odd number
 ```
 for(i = 1; i<=100; i++){
     if(i % 2===1){
@@ -14,7 +14,7 @@ for(i = 1; i<=100; i++){
 }
 ```
 
-## Ans--3 print  even number
+##Ans--3 print  even number
 ```
 for(i = 1; i<=100; i++){
     if(i % 2===0){

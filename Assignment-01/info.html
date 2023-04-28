@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basicinformation</title>
+</head>
+<h2 id="info" style="color: rgba(3, 11, 8, 0.848);">Information</h2>
+
+<body id="info-form" style="background-color: #78cd94;">
+    FirstName : <input id="Firstname" value="" title="PLease Enter your name" /><br /><br />
+    LastName : <input id="name" /><br /><br />
+    FatherName : <input id="Fname" value="" title="PLease Enter your father name" /><br /><br />
+    Date Of Birth : <input id="DOB" type="date" value="" title="PLease Enter Date of Birth" /><br /><br />
+    Mobile No. : <input id="Mobile" type="text" maxlength="10" pattern="\d{10}"
+        title="Please enter exactly 10 digits" />
+    <br /><br />
+    Email Id : <input id="Email" type="text" value="" title="PLease Enter your mail id" /><br /><br />
+    Gender : <input type="radio" id="gender" name="gender" value="male" /> Male
+    <input type="radio" id="gender" name="gender" value="female" /> Female <br />
+    <br />
+    Select Course : <select name="" id="Course" class="program">
+        <option value="" class="">--Select--</option>
+        <option value="" class="">JavaScript</option>
+        <option value="" class="">NodeJs</option>
+        <option value="" class="">Designing</option>
+        <option value="" class="">Photoshop</option>
+    </select> <br /><br />
+    <button id="submit" type="text" onclick="details()">Submit</button>
+    <script src="informationForm.js"></script>
+</body>
+
+</html>
